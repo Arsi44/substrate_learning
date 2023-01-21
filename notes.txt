@@ -1,0 +1,14 @@
+Blockchain:
+sudo apt -y install clang
+sudo apt -y install gcc
+sudo apt -y install cmake
+sudo apt -y install protobuf-compiler
+
+rustup default nightly
+rustup target add wasm32-unknown-unknown --toolchain nightly
+
+Front End:
+curl -sL https://deb.nodesource.com/setup_18.x | sudo -E bash -  
+sudo apt install build-essential nodejs -y
+PATH="$PATH"
+npm install --global yarn
