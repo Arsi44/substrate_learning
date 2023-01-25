@@ -3,3 +3,45 @@ This file is dedicated to 2 goals:
 - learning of pink! v3 technology
 
 All presented code is just worked out examples of basic elements as a self-learning
+
+
+Content + directory + link
+1) Compile a Substrate node 
+Link: https://docs.substrate.io/tutorials/get-started/build-local-blockchain/
+2) Simulate network
+Link: https://docs.substrate.io/tutorials/get-started/simulate-network/
+3) Add trusted nodes
+Link: https://docs.substrate.io/tutorials/get-started/add-trusted-nodes/
+4) Authorize specific nodes
+Link: https://docs.substrate.io/tutorials/get-started/authorize-specific-nodes/
+(Version of substrate crate must be charged to avoid compile errors!)
+5) Monitor node metrics
+Link: https://docs.substrate.io/tutorials/get-started/monitor-node-metrics/
+(wget https://github.com/prometheus/prometheus/releases/download/v2.41.0/prometheus-2.41.0.linux-amd64.tar.gz
+tar -vxf prometheus-2.41.0.linux-amd64.tar.gz
+sudo apt-get install -y adduser libfontconfig1
+wget https://dl.grafana.com/oss/release/grafana_9.3.2_amd64.deb
+sudo dpkg -i grafana_9.3.2_amd64.deb
+sudo /bin/systemctl daemon-reload
+sudo /bin/systemctl enable grafana-server
+sudo /bin/systemctl start grafana-server)
+6) Upgrade a running network
+Link: https://docs.substrate.io/tutorials/get-started/upgrade-a-running-network/
+7) Work with pallets
+7.1) Add a pallet to the runtime
+Link: https://docs.substrate.io/tutorials/work-with-pallets/add-a-pallet/upgrade-a-running-network/
+(Compile error: the trait `From<pallet_nicks::Event<Runtime>>` is not implemented for `RuntimeEvent`)
+7.2) Use macros in a custom pallet
+Link: https://docs.substrate.io/tutorials/work-with-pallets/use-macros-in-a-custom-pallet/
+7.3) Specify the origin for a call
+Link: https://docs.substrate.io/tutorials/work-with-pallets/specify-the-origin-for-a-call/
+7.3) Publish custom pallets
+Link: https://docs.substrate.io/tutorials/work-with-pallets/publish-custom-pallets/
+
+
+
+
+Additional operated links:
+https://docs.substrate.io/build/build-process/
+https://paritytech.github.io/substrate/master/pallet_node_authorization/pallet/trait.Config.html
+Template Grafana: https://github.com/substrate-developer-hub/substrate-docs/blob/main/static/assets/tutorials/monitor-node/substrate-node-template-metrics.json
