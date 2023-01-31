@@ -2,10 +2,12 @@ This file is dedicated to 2 goals:
 - learning of Substrate technology;
 - learning of pink! v3 technology
 
-All presented code is just worked out examples of basic elements as a self-learning
+All presented code is just worked out examples of basic elements as a self-learning.
 
 
 Content + directory + link
+
+PART 1: SUBSTRATE
 1) Compile a Substrate node 
 Link: https://docs.substrate.io/tutorials/get-started/build-local-blockchain/
 2) Simulate network
@@ -38,10 +40,33 @@ Link: https://docs.substrate.io/tutorials/work-with-pallets/specify-the-origin-f
 7.3) Publish custom pallets
 Link: https://docs.substrate.io/tutorials/work-with-pallets/publish-custom-pallets/
 
-
-
-
 Additional operated links:
 https://docs.substrate.io/build/build-process/
 https://paritytech.github.io/substrate/master/pallet_node_authorization/pallet/trait.Config.html
 Template Grafana: https://github.com/substrate-developer-hub/substrate-docs/blob/main/static/assets/tutorials/monitor-node/substrate-node-template-metrics.json
+
+
+
+PART 2: INK!
+8) Prepare your first contract
+Link: https://docs.substrate.io/tutorials/smart-contracts/prepare-your-first-contract/
+(sudo apt-get install -y pkg-config
+sudo apt-get install -y libssl-dev)
+9) Develop a smart contract
+link: https://docs.substrate.io/tutorials/smart-contracts/develop-a-smart-contract/
+10) Use maps for storing values
+link: https://docs.substrate.io/tutorials/smart-contracts/use-maps-for-storing-values/
+(incrementer folder)
+11) Build a token contract
+link: https://docs.substrate.io/tutorials/smart-contracts/build-a-token-contract/
+(erc20 folder)
+
+
+https://paritytech.github.io/ink/
+
+Additional operated links:
+What is Parity's ink!?: https://www.parity.io/blog/what-is-paritys-ink
+Smart contracts (Check!): https://docs.substrate.io/tutorials/smart-contracts/prepare-your-first-contract/
+
+
+
